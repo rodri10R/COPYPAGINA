@@ -1,0 +1,2 @@
+# COPYPAGINA
+pagina promiedos
