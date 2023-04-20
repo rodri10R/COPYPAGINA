@@ -13,6 +13,14 @@
     color: #ffffff;
 }
 
+li:nth-child(odd) {
+    background-color: #015a1c;
+}
+
+li:nth-child(even) {
+    background-color: #024817;
+}
+
 body {
     background-image: url(imagenes/media/unnamed.jpg);
 }
