@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+#principal{
+    margin: center;
+}
+
+.boton{
+    margin-left: 10px;
+    background-color: green;
+    color: #ffffff;
+}
+
 #columna {
 float: left;
 margin: 70px;
@@ -16,11 +26,35 @@ margin: 70px;
 
 }
 
-.btnFecha{
-    
+#navegacion{
+    display: flex; 
+    margin: auto; 
+    font-family: Arial;
 }
 
-.boton{
-    margin-left: 10px;
-    background-color: green;
+#navegacion a{
+    width: 80px;
+    border: 1px solid #000000;
+    padding: 0px;
+    background-color: #68a54b;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: #000 0.1em 0.1em 0.1em;
+}
+
+#titulo1{
+    width: 200px;
+    background-color: #125e2a;
+    color:  #ffffff;
+    text-align: center;
+    text-shadow: #000 0.1em 0.1em 0.1em;
+}
+
+#botonAyer{
+    border-radius: 10px 0px 0px 10px;
+}
+
+#botonMan{
+    border-radius: 0px 10px 10px 0px;
 }
