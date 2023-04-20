@@ -13,17 +13,29 @@
     color: #ffffff;
 }
 
+body {
+    background-image: url(imagenes/media/unnamed.jpg);
+}
+
 #columna {
 float: left;
 margin: 70px;
+background-color: #17573d;
 }
 
 .categorias li{
- background-color: green;
+ background-color: #015a1c;;
+ font-family: Roboto,sans-serif,Arial,Helvetica;
+ color: white;
+ padding-top: 2.5px;
+ padding-bottom: 2.5px;
 }
 
 .titulo-cat{
-
+ color: #c2e213;
+ background-color: #102100;
+ font-family: Roboto,sans-serif,Arial,Helvetica;
+ font-size: 20px;
 }
 
 #navegacion{
@@ -57,4 +69,13 @@ margin: 70px;
 
 #botonMan{
     border-radius: 0px 10px 10px 0px;
+}
+
+.boton{
+    margin-left: 10px;
+    background-color: green;
+}
+
+ul {
+    list-style: none;
 }
