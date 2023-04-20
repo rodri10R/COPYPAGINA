@@ -1,5 +1,21 @@
-.columna {
+*{
+    margin: 0;
+    padding: 0;
 }
+
+#columna {
+float: left;
+margin: 70px;
+}
+
+.categorias li{
+ background-color: green;
+}
+
+.titulo-cat{
+
+}
+
 .btnFecha{
     
 }
