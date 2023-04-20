@@ -17,11 +17,11 @@ header{
     color: #ffffff;
 }
 
-li:nth-child(odd) {
+#columna li:nth-child(even) {
     background-color: #015a1c;
 }
 
-li:nth-child(even) {
+#columna li:nth-child(odd) {
     background-color: #024817;
 }
 
