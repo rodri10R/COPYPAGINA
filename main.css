@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
@@ -31,7 +31,17 @@ body {
 
 #columna {
 float: left;
-margin: 70px;
+width: 150px;
+margin-left: 70px;
+margin-top: 50px;
+margin-right: 50px;
+padding-top: 0pt;
+padding-right: 0pt;
+padding-bottom: 0pt;
+padding-left: 0px;
+list-style-type: none;
+list-style-image: none;
+list-style-position: outside;
 background-color: #17573d;
 }
 
@@ -50,14 +60,22 @@ background-color: #17573d;
  font-size: 20px;
 }
 
+#principal{
+    float: right;
+    width: auto;
+    margin-right: 33%;
+    margin-left: 10%;
+}
+
 #navegacion{
     display: flex; 
     margin: auto; 
     font-family: Arial;
+    padding-top: 0pt;
 }
 
 #navegacion a{
-    width: 80px;
+    width: 100px;
     border: 1px solid #000000;
     padding: 0px;
     background-color: #68a54b;
@@ -72,7 +90,7 @@ background-color: #17573d;
 }
 
 #titulo1{
-    width: 200px;
+    width: 250px;
     background-color: #125e2a;
     color:  #ffffff;
     text-align: center;
@@ -81,14 +99,18 @@ background-color: #17573d;
 }
 
 #botonAyer{
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
 }
 
 #botonMan{
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
 }
 
-.boton{
+#botonesAccion{
+    margin-top: 100px;
+}
+
+#botonesAccion .boton{
     box-shadow: inset 0 1px 0 0 #9acc85;
     background-color: #68a54b;
     border: 1px solid #3b6e22;
