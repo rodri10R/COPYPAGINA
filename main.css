@@ -17,6 +17,11 @@ header{
     color: #ffffff;
 }
 
+#columna a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 #columna li:nth-child(even) {
     background-color: #015a1c;
 }
@@ -25,14 +30,20 @@ header{
     background-color: #024817;
 }
 
+#columna li:hover {
+    background-color: #213B0A;
+    border-left: 0.5em solid #c2e213;
+}
+
 body {
     background-image: url(imagenes/media/unnamed.jpg);
 }
 
 #columna {
-float: left;
-margin: 70px;
-background-color: #17573d;
+    float: left;
+    margin: 70px;
+    background-color: #17573d;
+    width: 150px;
 }
 
 .categorias li{
@@ -48,6 +59,10 @@ background-color: #17573d;
  background-color: #102100;
  font-family: Roboto,sans-serif,Arial,Helvetica;
  font-size: 20px;
+}
+
+#columna h1:hover{
+    text-shadow: 0 0 0.5em #fff;
 }
 
 #navegacion{
@@ -104,4 +119,20 @@ background-color: #17573d;
 
 ul {
     list-style: none;
+}
+
+#columna h4{
+    box-shadow: inset 0 1px 0 0 #9acc85;
+    background-color: #74ad5a;
+    border: 1px solid #3b6e22;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 25px;
+    padding-left: 18px;
+    font-family: Roboto,sans-serif,Arial,Helvetica;
+    font-size: 18px;
+}
+
+#columna h4:hover{
+    text-shadow: 0 0 0.5em #fff;
 }
